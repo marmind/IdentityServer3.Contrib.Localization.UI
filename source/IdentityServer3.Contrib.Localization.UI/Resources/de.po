@@ -25,7 +25,7 @@ msgid "login.password.placeholder"
 msgstr "Passwort"
 
 msgid "login.rememberLogin"
-msgstr "Anmeldedaten merken"
+msgstr "Angemeldet bleiben"
 
 msgid "login.local"
 msgstr "Lokale Anmeldung"
@@ -58,7 +58,7 @@ msgid "logout.return"
 msgstr " um zu "
 
 msgid "logout.application"
-msgstr " zurück zu kehren."
+msgstr " zurückzukehren."
 
 msgid "logout.from"
 msgstr "Möchten Sie sich von "
