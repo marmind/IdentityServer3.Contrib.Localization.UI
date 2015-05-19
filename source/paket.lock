@@ -1,0 +1,8 @@
+NUGET
+  remote: http://nuget.org/api/v2
+  specs:
+    Newtonsoft.Json (6.0.8)
+    Owin (1.0)
+    SecondLanguage (1.0.1)
+    Thinktecture.IdentityServer3 (1.6.1)
+      Owin (>= 1.0)
