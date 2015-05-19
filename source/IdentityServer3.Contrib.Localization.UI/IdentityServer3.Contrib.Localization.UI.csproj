@@ -93,6 +93,12 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <PropertyGroup>
+    <PostBuildEvent>if $(ConfigurationName) == Release (
+if not exist "$(SolutionDir)..\packages" mkdir "$(SolutionDir)..\packages"
+"$(SolutionDir)..\tools\nuget.exe" pack "$(SolutionDir)IdentityServer3.Contrib.Localization.UI\IdentityServer3.Contrib.Localization.UI.nuspec" -OutputDirectory "$(SolutionDir)..\packages"
+)</PostBuildEvent>
+  </PropertyGroup>
   <Choose>
     <When Condition="$(TargetFrameworkIdentifier) == '.NETCore'">
       <ItemGroup>
@@ -191,10 +197,4 @@
       </ItemGroup>
     </When>
   </Choose>
-  <PropertyGroup>
-    <PostBuildEvent>if $(ConfigurationName) == Release (
-if not exist "$(SolutionDir)..\packages" mkdir "$(SolutionDir)..\packages"
-"$(SolutionDir)..\tools\nuget.exe" pack "$(SolutionDir)IdentityServer3.Contrib.Localization.UI\IdentityServer3.Contrib.Localization.UI.nuspec" -OutputDirectory "$(SolutionDir)..\packages"
-)</PostBuildEvent>
-  </PropertyGroup>
 </Project>

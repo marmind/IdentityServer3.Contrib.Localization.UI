@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using System.Threading;
 using SecondLanguage;
 
@@ -34,9 +36,13 @@ namespace IdentityServer3.Contrib.Localization.UI
 
         private void Init()
         {
-            var files = Directory.GetFiles("Resources", "*.po", SearchOption.AllDirectories);
+            var resPath = Path.Combine(AssemblyDirectory, "resources");
+            Console.WriteLine("Resource path: " + resPath);
+
+            var files = Directory.GetFiles(resPath, "*.po", SearchOption.AllDirectories);
             foreach (string file in files)
             {
+                Console.WriteLine(file);
                 var translator = new Translator();
                 translator.RegisterTranslation(file);
 
@@ -63,6 +69,17 @@ namespace IdentityServer3.Contrib.Localization.UI
             }
 
             return translator;
+        }
+
+        private string AssemblyDirectory
+        {
+            get
+            {
+                string codeBase = Assembly.GetExecutingAssembly().CodeBase;
+                var uri = new UriBuilder(codeBase);
+                string path = Uri.UnescapeDataString(uri.Path);
+                return Path.GetDirectoryName(path);
+            }
         }
     }
 }
