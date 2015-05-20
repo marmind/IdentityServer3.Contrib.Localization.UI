@@ -37,12 +37,10 @@ namespace IdentityServer3.Contrib.Localization.UI
         private void Init()
         {
             var resPath = Path.Combine(AssemblyDirectory, "resources");
-            Console.WriteLine("Resource path: " + resPath);
 
             var files = Directory.GetFiles(resPath, "*.po", SearchOption.AllDirectories);
             foreach (string file in files)
             {
-                Console.WriteLine(file);
                 var translator = new Translator();
                 translator.RegisterTranslation(file);
 
