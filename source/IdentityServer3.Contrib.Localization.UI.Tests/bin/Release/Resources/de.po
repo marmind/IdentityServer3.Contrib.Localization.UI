@@ -1,0 +1,133 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "common.error"
+msgstr "Fehler"
+
+msgid "login.username"
+msgstr "Benutzername"
+
+msgid "login.username.placeholder"
+msgstr "Benutzername"
+
+msgid "login.password"
+msgstr "Passwort"
+
+msgid "login.password.placeholder"
+msgstr "Passwort"
+
+msgid "login.rememberLogin"
+msgstr "Angemeldet bleiben"
+
+msgid "login.local"
+msgstr "Lokale Anmeldung"
+
+msgid "login.title"
+msgstr "Anmeldung"
+
+msgid "login.action"
+msgstr "Anmelden"
+
+msgid "login.external"
+msgstr "Externe Anmeldung"
+
+msgid "login.different"
+msgstr "Mit anderem Konto anmelden"
+
+msgid "logout.title"
+msgstr "Abmeldung"
+
+msgid "logout.info"
+msgstr "Sie wurden abgemeldet."
+
+msgid "logout.click"
+msgstr "Klicken Sie "
+
+msgid "logout.here"
+msgstr "hier"
+
+msgid "logout.return"
+msgstr " um zu "
+
+msgid "logout.application"
+msgstr " zurückzukehren."
+
+msgid "logout.from"
+msgstr "Möchten Sie sich von "
+
+msgid "logout.from2"
+msgstr " abmelden?"
+
+msgid "logout.yes"
+msgstr "Ja"
+
+msgid "consent.request"
+msgstr "fragt um Ihre Erlaubnis an"
+
+msgid "consent.uncheck"
+msgstr "Wählen Sie die Berechtigungen ab, die Sie nicht erteilen möchten."
+
+msgid "consent.personalInformation"
+msgstr "Persönliche Informationen"
+
+msgid "consent.applicationAccess"
+msgstr "Anwendungszugriff"
+
+msgid "consent.required"
+msgstr "(erforderlich)"
+
+msgid "consent.rememberDecision"
+msgstr "Meine Entscheidung merken"
+
+msgid "consent.allow"
+msgstr "Ja, erlauben"
+
+msgid "consent.disallow"
+msgstr "Nein, nicht erlauben"
+
+msgid "permissions.client"
+msgstr "Berechtigung für Client-Anwendung"
+
+msgid "permissions.nonGranted"
+msgstr "Sie haben noch keiner Anwendung Berechtigungen erteilt"
+
+msgid "permissions.identity"
+msgstr "Zugriff auf die Identität"
+
+msgid "permissions.resource"
+msgstr "Zugriff auf Ressourcen"
+
+msgid "permissions.revoke"
+msgstr "Zurücknehmen"
+
+msgid "form.submit"
+msgstr "Daten übermitteln"
+
+msgid "welcome.title"
+msgstr "IdentityServer v3"
+
+msgid "welcome.nav.title"
+msgstr "IdentityServer3"
+
+msgid "welcome.header"
+msgstr "Welcome to IdentityServer3"
+
+msgid "welcome.build"
+msgstr "(build {version})"
+
+msgid "welcome.info1"
+msgstr "IdentityServer veröffentlicht ein <a href=\"{applicationPath}/.well-known/openid-configuration\">Discovery Dokument</a> mit Metadaten und Links zu Endpunkten etc."
+
+msgid "welcome.info2"
+msgstr "IdentityServer erlaubt es Benutzern bereits vergebene <a href=\"{applicationPath}/permissions\">Berechtigungen</a> anzusehen und zurück zu nehmen."
+
+msgid "welcome.info3"
+msgstr "Hier sind die Link zu <a href=\"https://identityserver.github.io/Documentation\">Dokumentation</a>, und <a href=\"https://github.com/identityserver/Thinktecture.IdentityServer3.Samples\">anwendbare Beispiele</a>."

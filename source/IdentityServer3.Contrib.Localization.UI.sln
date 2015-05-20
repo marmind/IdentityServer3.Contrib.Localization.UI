@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		paket.dependencies = paket.dependencies
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer3.Contrib.Localization.UI.Tests", "IdentityServer3.Contrib.Localization.UI.Tests\IdentityServer3.Contrib.Localization.UI.Tests.csproj", "{2C6D4783-BC3C-41FC-8E7F-69BC209D949D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{3CF5C3ED-1E83-4C5C-AD32-CBA295BA0B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CF5C3ED-1E83-4C5C-AD32-CBA295BA0B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CF5C3ED-1E83-4C5C-AD32-CBA295BA0B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6D4783-BC3C-41FC-8E7F-69BC209D949D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6D4783-BC3C-41FC-8E7F-69BC209D949D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6D4783-BC3C-41FC-8E7F-69BC209D949D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6D4783-BC3C-41FC-8E7F-69BC209D949D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

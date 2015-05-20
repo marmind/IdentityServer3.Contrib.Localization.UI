@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html ng-app="app" ng-controller="LayoutCtrl">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>[[welcome.title]]</title>
+    <link rel="stylesheet" href="{applicationPath}/assets/styles.min.css">
+</head>
+<body lang="en">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+            <a href="{applicationPath}">
+                <span class="navbar-brand">
+                    [[welcome.nav.title]]
+                </span>
+            </a>
+        </div>
+    </div>
+
+    <div class="welcome-page container">
+        <div class="row page-header">
+            <div class="col-sm-10">
+                <h1>
+                    [[welcome.header]]
+                    <small>[[welcome.build]]</small>
+                </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8">
+                <p>
+                    [[welcome.info1]]
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <p>
+                    [[welcome.info2]]
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <p>
+                    [[welcome.info3]]
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
