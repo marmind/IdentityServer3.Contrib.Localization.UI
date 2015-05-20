@@ -52,10 +52,10 @@ msgid "logout.click"
 msgstr "Click "
 
 msgid "logout.here"
-msgstr "here "
+msgstr "here"
 
 msgid "logout.return"
-msgstr "to return to the"
+msgstr " to return to the"
 
 msgid "logout.application"
 msgstr " application"
