@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Reflection;
+using System.Text.RegularExpressions;
 using System.Threading;
 using SecondLanguage;
 
@@ -78,6 +80,22 @@ namespace IdentityServer3.Contrib.Localization.UI
                 string path = Uri.UnescapeDataString(uri.Path);
                 return Path.GetDirectoryName(path);
             }
+        }
+
+        public string Translate(string html)
+        {
+            var translator = GetTranslatorForCurrentCulture();
+            const string pattern = @"\[\[([a-zA-Z0-9\.]+)\]\]";
+            var matches =
+                from Match match in Regex.Matches(html, pattern)
+                select match.Groups[1].Value;
+
+            foreach (var match in matches)
+            {
+                var translated = translator.Translate(match);
+                html = html.Replace("[[" + match + "]]", translated);
+            }
+            return html;
         }
     }
 }

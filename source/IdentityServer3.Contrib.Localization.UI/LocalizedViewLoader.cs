@@ -36,23 +36,7 @@ namespace IdentityServer3.Contrib.Localization.UI
             {
                 value = embedded.Load(name);
             }
-            return Translate(value);
-        }
-
-        private string Translate(string html)
-        {
-            var translator = TranslatorHelper.Instance.GetTranslatorForCurrentCulture();
-            const string pattern = @"\[\[(\S+)\]\]";
-            var matches =
-                from Match match in Regex.Matches(html, pattern)
-                select match.Groups[1].Value;
-
-            foreach (var match in matches)
-            {
-                var translated = translator.Translate(match);
-                html = html.Replace("[[" + match + "]]", translated);
-            }
-            return html;
+            return TranslatorHelper.Instance.Translate(value);
         }
     }
 }
