@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>IdentityServer3.Contrib.Localization.UI</id>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
         <title>Thinktecture IdentityServer3 - Localization.UI</title>
         <authors>Norbert Eder (MARMIND)</authors>
         <licenseUrl>https://github.com/marmind/IdentityServer3.Contrib.Localization.UI/blob/master/LICENSE</licenseUrl>
@@ -10,8 +10,8 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Contrib implementation of IViewLoader for IdentityServer3 views in multiple languages</description>
         <releaseNotes>
-          * Better regular expression for parsing translation keys
-          * Updated translations
+          * Fixed #4 Certain view localizations not applied
+          * Updated dependencies
         </releaseNotes>
         <tags>identityserver, identityserver3, i18n, localize, localization, globalization, language, languages, ui</tags>
         <dependencies>
@@ -22,9 +22,9 @@
     </metadata>
     <files>
         <file src="assets\checksession.html" target="assets\checksession.html" />
-        <file src="assets\FormPostResponse.html" target="assets\FormPostResponse.html" />
-        <file src="assets\layout.html" target="assets\layout.html" />
-        <file src="assets\welcome.html" target="assets\welcome.html" />
+        <file src="assets\_FormPostResponse.html" target="assets\_FormPostResponse.html" />
+        <file src="assets\_layout.html" target="assets\_layout.html" />
+        <file src="assets\_welcome.html" target="assets\_welcome.html" />
         <file src="assets\_consent.html" target="assets\_consent.html" />
         <file src="assets\_error.html" target="assets\_error.html" />
         <file src="assets\_loggedOut.html" target="assets\_loggedOut.html" />

@@ -53,10 +53,10 @@
     <Content Include="assets\_error.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\FormPostResponse.html">
+    <Content Include="assets\_FormPostResponse.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\layout.html">
+    <Content Include="assets\_layout.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="assets\_loggedOut.html">
@@ -71,7 +71,7 @@
     <Content Include="assets\_permissions.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\welcome.html">
+    <Content Include="assets\_welcome.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
