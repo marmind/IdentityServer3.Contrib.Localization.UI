@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>IdentityServer3.Contrib.Localization.UI</id>
-        <version>1.0.3</version>
+        <version>1.1.0</version>
         <title>Thinktecture IdentityServer3 - Localization.UI</title>
         <authors>Norbert Eder (MARMIND)</authors>
         <licenseUrl>https://github.com/marmind/IdentityServer3.Contrib.Localization.UI/blob/master/LICENSE</licenseUrl>
@@ -10,12 +10,11 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Contrib implementation of IViewLoader for IdentityServer3 views in multiple languages</description>
         <releaseNotes>
-          * Fixed #4 Certain view localizations not applied
-          * Updated dependencies
+          * Support IdentityServer3
         </releaseNotes>
         <tags>identityserver, identityserver3, i18n, localize, localization, globalization, language, languages, ui</tags>
         <dependencies>
-            <dependency id="Thinktecture.IdentityServer3" version="1.6.2" />
+            <dependency id="IdentityServer3" version="2.0.1" />
             <dependency id="SecondLanguage" version="1.0.1" />
             <dependency id="Newtonsoft.Json" version="7.0.1" />
         </dependencies>

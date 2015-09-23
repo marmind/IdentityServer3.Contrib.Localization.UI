@@ -1,8 +1,6 @@
 ﻿using System;
 using System.IO;
-using System.Linq;
-using System.Text.RegularExpressions;
-using Thinktecture.IdentityServer.Core.Services.Default;
+using IdentityServer3.Core.Services.Default;
 
 namespace IdentityServer3.Contrib.Localization.UI
 {
@@ -29,12 +27,13 @@ namespace IdentityServer3.Contrib.Localization.UI
             return path;
         }
 
-        public string Load(string name)
-        {
-            var value = file.Load(name);
+        public async System.Threading.Tasks.Task<string> LoadAsync(string name)
+        {            
+            string value = null;
+            value = await file.LoadAsync(name);
             if (value == null)
             {
-                value = embedded.Load(name);
+                value = await embedded.LoadAsync(name);
             }
             return TranslatorHelper.Instance.Translate(value);
         }
