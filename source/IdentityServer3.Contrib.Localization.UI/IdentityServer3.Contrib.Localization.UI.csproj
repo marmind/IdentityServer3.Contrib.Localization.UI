@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SecondLanguage">
+      <HintPath>..\packages\SecondLanguage\lib\net35\SecondLanguage.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -77,7 +80,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="IdentityServer3.Contrib.Localization.UI.csproj.paket.references" />
-    <None Include="IdentityServer3.Contrib.Localization.UI.nuspec" />
+    <None Include="IdentityServer3.Contrib.Localization.UI.nuspec">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Resources\de.po">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -96,11 +101,11 @@
   <PropertyGroup>
     <PostBuildEvent>if $(ConfigurationName) == Release (
 if not exist "$(SolutionDir)..\packages" mkdir "$(SolutionDir)..\packages"
-"$(SolutionDir)..\tools\nuget.exe" pack "$(SolutionDir)IdentityServer3.Contrib.Localization.UI\IdentityServer3.Contrib.Localization.UI.nuspec" -OutputDirectory "$(SolutionDir)..\packages"
+nuget pack "$(SolutionDir)IdentityServer3.Contrib.Localization.UI\IdentityServer3.Contrib.Localization.UI.nuspec" -OutputDirectory "$(SolutionDir)..\packages"
 )</PostBuildEvent>
   </PropertyGroup>
   <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.5' Or $(TargetFrameworkVersion) == 'v4.5.1' Or $(TargetFrameworkVersion) == 'v4.5.2' Or $(TargetFrameworkVersion) == 'v4.5.3' Or $(TargetFrameworkVersion) == 'v4.6')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.5' Or $(TargetFrameworkVersion) == 'v4.5.1' Or $(TargetFrameworkVersion) == 'v4.5.2' Or $(TargetFrameworkVersion) == 'v4.5.3' Or $(TargetFrameworkVersion) == 'v4.6' Or $(TargetFrameworkVersion) == 'v4.6.1')">
       <ItemGroup>
         <Reference Include="IdentityServer3">
           <HintPath>..\packages\IdentityServer3\lib\net45\IdentityServer3.dll</HintPath>
@@ -138,7 +143,7 @@ if not exist "$(SolutionDir)..\packages" mkdir "$(SolutionDir)..\packages"
         </Reference>
       </ItemGroup>
     </When>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.5' Or $(TargetFrameworkVersion) == 'v4.5.1' Or $(TargetFrameworkVersion) == 'v4.5.2' Or $(TargetFrameworkVersion) == 'v4.5.3' Or $(TargetFrameworkVersion) == 'v4.6')">
+    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.5' Or $(TargetFrameworkVersion) == 'v4.5.1' Or $(TargetFrameworkVersion) == 'v4.5.2' Or $(TargetFrameworkVersion) == 'v4.5.3' Or $(TargetFrameworkVersion) == 'v4.6' Or $(TargetFrameworkVersion) == 'v4.6.1')">
       <ItemGroup>
         <Reference Include="Newtonsoft.Json">
           <HintPath>..\packages\Newtonsoft.Json\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -160,28 +165,6 @@ if not exist "$(SolutionDir)..\packages" mkdir "$(SolutionDir)..\packages"
       <ItemGroup>
         <Reference Include="Newtonsoft.Json">
           <HintPath>..\packages\Newtonsoft.Json\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
-          <Private>True</Private>
-          <Paket>True</Paket>
-        </Reference>
-      </ItemGroup>
-    </When>
-  </Choose>
-  <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v4.0' Or $(TargetFrameworkVersion) == 'v4.5' Or $(TargetFrameworkVersion) == 'v4.5.1' Or $(TargetFrameworkVersion) == 'v4.5.2' Or $(TargetFrameworkVersion) == 'v4.5.3' Or $(TargetFrameworkVersion) == 'v4.6')">
-      <ItemGroup>
-        <Reference Include="Owin">
-          <HintPath>..\packages\Owin\lib\net40\Owin.dll</HintPath>
-          <Private>True</Private>
-          <Paket>True</Paket>
-        </Reference>
-      </ItemGroup>
-    </When>
-  </Choose>
-  <Choose>
-    <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And ($(TargetFrameworkVersion) == 'v3.5' Or $(TargetFrameworkVersion) == 'v4.0' Or $(TargetFrameworkVersion) == 'v4.5' Or $(TargetFrameworkVersion) == 'v4.5.1' Or $(TargetFrameworkVersion) == 'v4.5.2' Or $(TargetFrameworkVersion) == 'v4.5.3' Or $(TargetFrameworkVersion) == 'v4.6')">
-      <ItemGroup>
-        <Reference Include="SecondLanguage">
-          <HintPath>..\packages\SecondLanguage\lib\net35\SecondLanguage.dll</HintPath>
           <Private>True</Private>
           <Paket>True</Paket>
         </Reference>

@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?><coreProperties xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties"><dc:creator>James Bellinger</dc:creator><dc:description>SecondLanguage lets you use Gettext files in .NET without a lot of hassle.
-
-It can read and write both .mo and .po, and fully supports message contexts and plural forms.
-
-A C-style printf formatter is included so you don't have to use .NET-specific translations.</dc:description><dc:identifier>SecondLanguage</dc:identifier><version>1.0.1</version><keywords>Gettext MO PO printf translate translation internationalization i18n localization l10n context plural</keywords><dc:title>SecondLanguage</dc:title><lastModifiedBy>NuGet, Version=2.8.50926.602, Culture=neutral, PublicKeyToken=null;Microsoft Windows NT 6.1.7601 Service Pack 1;.NET Framework 4</lastModifiedBy></coreProperties>

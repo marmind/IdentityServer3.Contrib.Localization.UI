@@ -2,4 +2,7 @@ source/IdentityServer3.Contrib.Localization.UI/obj/
 source/IdentityServer3.Contrib.Localization.UI/bin/
 output/
 packages/
+source/IdentityServer3.Contrib.Localization.UI.Tests/obj/
 source/IdentityServer3.Contrib.Localization.UI.Tests/bin/
+*.csproj.user
+*.suo
