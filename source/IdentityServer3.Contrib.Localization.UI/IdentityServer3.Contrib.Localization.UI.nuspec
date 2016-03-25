@@ -15,7 +15,7 @@
         <tags>identityserver, identityserver3, i18n, localize, localization, globalization, language, languages, ui</tags>
         <dependencies>
             <dependency id="IdentityServer3" version="2.0.1" />
-            <dependency id="SecondLanguage" version="1.0.1" />
+            <dependency id="SecondLanguage" version="1.0.2.1" />
             <dependency id="Newtonsoft.Json" version="7.0.1" />
         </dependencies>
     </metadata>
