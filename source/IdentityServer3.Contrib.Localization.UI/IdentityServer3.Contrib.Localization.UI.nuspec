@@ -20,18 +20,18 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="assets\checksession.html" target="assets\checksession.html" />
-        <file src="assets\_FormPostResponse.html" target="assets\_FormPostResponse.html" />
-        <file src="assets\_layout.html" target="assets\_layout.html" />
-        <file src="assets\_welcome.html" target="assets\_welcome.html" />
-        <file src="assets\_consent.html" target="assets\_consent.html" />
-        <file src="assets\_error.html" target="assets\_error.html" />
-        <file src="assets\_loggedOut.html" target="assets\_loggedOut.html" />
-        <file src="assets\_login.html" target="assets\_login.html" />
-        <file src="assets\_logout.html" target="assets\_logout.html" />
-        <file src="assets\_permissions.html" target="assets\_permissions.html" />
-        <file src="Resources\de.po" target="resources\de.po" />
-        <file src="Resources\en.po" target="resources\en.po" />
+        <file src="assets\checksession.html" target="content\assets\checksession.html" />
+        <file src="assets\_FormPostResponse.html" target="content\assets\_FormPostResponse.html" />
+        <file src="assets\_layout.html" target="content\assets\_layout.html" />
+        <file src="assets\_welcome.html" target="content\assets\_welcome.html" />
+        <file src="assets\_consent.html" target="content\assets\_consent.html" />
+        <file src="assets\_error.html" target="content\assets\_error.html" />
+        <file src="assets\_loggedOut.html" target="content\assets\_loggedOut.html" />
+        <file src="assets\_login.html" target="content\assets\_login.html" />
+        <file src="assets\_logout.html" target="content\assets\_logout.html" />
+        <file src="assets\_permissions.html" target="content\assets\_permissions.html" />
+        <file src="Resources\de.po" target="content\resources\de.po" />
+        <file src="Resources\en.po" target="content\resources\en.po" />
         <file src="..\..\output\release\IdentityServer3.Contrib.Localization.UI.dll" target="lib\net45\IdentityServer3.Contrib.Localization.UI.dll" />
         <file src="..\..\output\release\IdentityServer3.Contrib.Localization.UI.pdb" target="lib\net45\IdentityServer3.Contrib.Localization.UI.pdb" />
     </files>
