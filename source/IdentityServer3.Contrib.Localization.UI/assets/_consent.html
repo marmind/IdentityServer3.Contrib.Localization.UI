@@ -19,7 +19,7 @@
 
             <div>[[consent.uncheck]]</div>
 
-            <div class="panel panel-default consent-buttons" ng-show="model.identityScopes">
+            <div class="panel panel-default consent-buttons" ng-show="model.identityScopes.length">
                 <div class="panel-heading">
                     <span class="glyphicon glyphicon-user"></span>
                     [[consent.personalInformation]]
@@ -39,7 +39,7 @@
                 </ul>
             </div>
 
-            <div class="panel panel-default" ng-show="model.resourceScopes">
+            <div class="panel panel-default" ng-show="model.resourceScopes.length">
                 <div class="panel-heading">
                     <span class="glyphicon glyphicon-tasks"></span>
                     [[consent.applicationAccess]]
