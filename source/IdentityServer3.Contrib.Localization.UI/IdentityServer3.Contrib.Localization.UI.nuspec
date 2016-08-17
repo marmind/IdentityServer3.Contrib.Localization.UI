@@ -1,38 +1,28 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-    <metadata>
-        <id>IdentityServer3.Contrib.Localization.UI</id>
-        <version>1.1.1</version>
-        <title>Thinktecture IdentityServer3 - Localization.UI</title>
-        <authors>Norbert Eder (MARMIND)</authors>
-        <licenseUrl>https://github.com/marmind/IdentityServer3.Contrib.Localization.UI/blob/master/LICENSE</licenseUrl>
-        <projectUrl>https://github.com/marmind/IdentityServer3.Contrib.Localization.UI</projectUrl>
-        <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Contrib implementation of IViewLoader for IdentityServer3 views in multiple languages</description>
-        <releaseNotes>
-          * Support IdentityServer3
-        </releaseNotes>
-        <tags>identityserver, identityserver3, i18n, localize, localization, globalization, language, languages, ui</tags>
-        <dependencies>
-            <dependency id="IdentityServer3" version="2.0.1" />
-            <dependency id="SecondLanguage" version="1.0.2.1" />
-            <dependency id="Newtonsoft.Json" version="7.0.1" />
-        </dependencies>
-    </metadata>
-    <files>
-        <file src="assets\checksession.html" target="content\assets\checksession.html" />
-        <file src="assets\_FormPostResponse.html" target="content\assets\_FormPostResponse.html" />
-        <file src="assets\_layout.html" target="content\assets\_layout.html" />
-        <file src="assets\_welcome.html" target="content\assets\_welcome.html" />
-        <file src="assets\_consent.html" target="content\assets\_consent.html" />
-        <file src="assets\_error.html" target="content\assets\_error.html" />
-        <file src="assets\_loggedOut.html" target="content\assets\_loggedOut.html" />
-        <file src="assets\_login.html" target="content\assets\_login.html" />
-        <file src="assets\_logout.html" target="content\assets\_logout.html" />
-        <file src="assets\_permissions.html" target="content\assets\_permissions.html" />
-        <file src="Resources\de.po" target="content\resources\de.po" />
-        <file src="Resources\en.po" target="content\resources\en.po" />
-        <file src="..\..\output\release\IdentityServer3.Contrib.Localization.UI.dll" target="lib\net45\IdentityServer3.Contrib.Localization.UI.dll" />
-        <file src="..\..\output\release\IdentityServer3.Contrib.Localization.UI.pdb" target="lib\net45\IdentityServer3.Contrib.Localization.UI.pdb" />
-    </files>
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IdentityServer3.Contrib.Localization.UI</id>
+    <version>1.1.2</version>
+    <title>IdentityServer3 - Localization.UI</title>
+    <authors>Norbert Eder (MARMIND)</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/marmind/IdentityServer3.Contrib.Localization.UI/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/marmind/IdentityServer3.Contrib.Localization.UI</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <description>Contrib implementation of IViewLoader for IdentityServer3 views in multiple languages</description>
+    <releaseNotes>
+      * Support IdentityServer3
+    </releaseNotes>
+    <!-- copyright>Copyright 2016</copyright -->
+    <tags>identityserver, identityserver3, i18n, localize, localization, globalization, language, languages, ui</tags>
+    <dependencies>
+      <dependency id="IdentityServer3" version="2.5.0" />
+      <dependency id="Newtonsoft.Json" version="9.0.1" />
+      <dependency id="SecondLanguage" version="1.0.2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Resources\*.po" target="content\resources" />
+  </files>
 </package>

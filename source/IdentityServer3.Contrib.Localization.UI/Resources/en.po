@@ -9,6 +9,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgid "authorizeresponse.wait"
+msgstr "Please wait..."
+
 msgid "common.error"
 msgstr "Error"
 
@@ -111,6 +114,9 @@ msgstr "Revoke"
 msgid "form.submit"
 msgstr "Submit this form"
 
+msgid "signoutframe.signout"
+msgstr "SignOut"
+
 msgid "welcome.title"
 msgstr "IdentityServer v3"
 
@@ -130,4 +136,4 @@ msgid "welcome.info2"
 msgstr "IdentityServer allows users to view and revoke <a href=\"{applicationPath}/permissions\">application permissions</a> previously granted to client applications."
 
 msgid "welcome.info3"
-msgstr "Here are links to the <a href=\"https://identityserver.github.io/Documentation\">documentation</a>, and <a href=\"https://github.com/identityserver/Thinktecture.IdentityServer3.Samples\">ready to use samples</a>."
+msgstr "Here are links to the <a href=\"https://identityserver.github.io/Documentation\">documentation</a>, and <a href=\"https://github.com/identityserver/IdentityServer3.Samples\">ready to use samples</a>."
