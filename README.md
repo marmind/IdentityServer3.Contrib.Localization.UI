@@ -21,4 +21,4 @@ We use PO files as language files. The name of the file defines the culture:
 
 If the requested language could not be found, the culture `en` will be searched, so be sure that this one exists.
 
-For further information how IdentityServer3 works, see [Customizing Views](https://identityserver.github.io/Documentation/docs/advanced/customizingViews.html "Customizing Views").
+For further information how IdentityServer3 works, see [Customizing Views](https://identityserver.github.io/Documentation/docsv2/advanced/customizingViews.html "Customizing Views").
