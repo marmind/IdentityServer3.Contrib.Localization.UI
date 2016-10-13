@@ -85,7 +85,7 @@ namespace IdentityServer3.Contrib.Localization.UI
         public string Translate(string html)
         {
             var translator = GetTranslatorForCurrentCulture();
-            const string pattern = @"\[\[([a-zA-Z0-9\.]+)\]\]";
+            const string pattern = @"\[\[([a-zA-Z0-9\.\-_]+)\]\]";
             var matches =
                 from Match match in Regex.Matches(html, pattern)
                 select match.Groups[1].Value;
