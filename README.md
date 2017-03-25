@@ -18,6 +18,7 @@ We use PO files as language files. The name of the file defines the culture:
 
     de.po -> German
     de-AT -> German, Austria
+	ar.po -> Arabic
 
 If the requested language could not be found, the culture `en` will be searched, so be sure that this one exists.
 
