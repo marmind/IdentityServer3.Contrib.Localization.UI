@@ -86,6 +86,7 @@
     <None Include="IdentityServer3.Contrib.Localization.UI.nuspec">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Resources\ar.po" />
     <None Include="Resources\de.po">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

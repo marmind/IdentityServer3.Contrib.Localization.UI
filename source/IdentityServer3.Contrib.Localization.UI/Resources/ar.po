@@ -1,0 +1,151 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Sat Jan 23 2016 06:47:31 GMT+0300 (Arab Standard Time)\n"
+"PO-Revision-Date: Sat Jan 23 2016 08:02:15 GMT+0300 (Arab Standard Time)\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: Arabic\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Source-Locale: en_SD\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Loco-Target-Locale: ar\n"
+"X-Generator: Loco - https://localise.biz/"
+
+msgid "common.error"
+msgstr "حدث خطأ"
+
+msgid "login.username"
+msgstr "اسم المستخدم"
+
+msgid "login.username.placeholder"
+msgstr "اسم المستخدم"
+
+msgid "login.password"
+msgstr "كلمة المرور"
+
+msgid "login.password.placeholder"
+msgstr "كلمة المرور"
+
+msgid "login.rememberLogin"
+msgstr "الإبقاء على تسجيل الدخول"
+
+msgid "login.local"
+msgstr "تسجيل الدخول بحساب داخلي"
+
+msgid "login.title"
+msgstr "تسجيل الدخول"
+
+msgid "login.action"
+msgstr "تسجيل الدخول"
+
+msgid "login.external"
+msgstr "تسجيل الدخول بحساب خارجي"
+
+msgid "login.different"
+msgstr "تسجيل الدخول بحساب آخر"
+
+msgid "logout.title"
+msgstr "تسجيل الخروج"
+
+msgid "logout.info"
+msgstr "تم تسجيل خروجك"
+
+msgid "logout.click"
+msgstr "إضغط"
+
+msgid "logout.here"
+msgstr "هنا"
+
+msgid "logout.return"
+msgstr "للرجوع إلى"
+
+msgid "logout.application"
+msgstr "التطبيق"
+
+msgid "logout.from"
+msgstr "هل تريد تسجيل الخروج من"
+
+msgid "logout.from2"
+msgstr "؟"
+
+msgid "logout.yes"
+msgstr "نعم"
+
+msgid "consent.request"
+msgstr "يطلب التصريح منك"
+
+msgid "consent.uncheck"
+msgstr "قم بإلغاء اختيار الصلاحيات التي لا تريد منحها"
+
+msgid "consent.personalInformation"
+msgstr "البيانات الشخصية"
+
+msgid "consent.applicationAccess"
+msgstr "الوصول للتطبيق"
+
+msgid "consent.required"
+msgstr "(مطلوب)"
+
+msgid "consent.rememberDecision"
+msgstr "قم بتذكر قراري"
+
+msgid "consent.allow"
+msgstr "نعم، قم بإعطاء التصريح"
+
+msgid "consent.disallow"
+msgstr "لا تُصَرِّح"
+
+msgid "permissions.client"
+msgstr "تصاريح التطبيق"
+
+msgid "permissions.nonGranted"
+msgstr "لم تقم بإعطاء أي من التصاريح للتطبيق"
+
+msgid "permissions.identity"
+msgstr "تصاريح الهوية"
+
+msgid "permissions.resource"
+msgstr "تصاريح المورد"
+
+msgid "permissions.revoke"
+msgstr "إلغاء"
+
+msgid "form.submit"
+msgstr "موافق"
+
+msgid "welcome.title"
+msgstr "IdentityServer النسخة الثالثة"
+
+msgid "welcome.nav.title"
+msgstr "IdentityServer3"
+
+msgid "welcome.header"
+msgstr "مرحباً في IdentityServer3"
+
+msgid "welcome.build"
+msgstr "(بناء {version})"
+
+msgid "welcome.info1"
+msgstr ""
+"يقوم IdentityServer بنشر <a href=\"{applicationPath}/.well-known/openid-"
+"configuration\">مستند إكتشاف</a> يمكنك من خلاله إيجاد البيانات الوصفية و جميع "
+"روابط النقاط و المفاتيح."
+
+msgid "welcome.info2"
+msgstr ""
+"يُمَكِّن IdentityServer المستخدم من استعراض و حذف <a "
+"href=\"{applicationPath}/permissions\">تصاريح التطبيقات</a> التي تم منحها "
+"سابقاً."
+
+msgid "welcome.info3"
+msgstr ""
+"هنا تجد روابط ل<a href=\"https://identityserver.github."
+"io/Documentation\">التوثيق</a> و <a href=\"https://github."
+"com/identityserver/Thinktecture.IdentityServer3.Samples\">بعض النماذج الجاهزة "
+"للإستخدام</a>"
