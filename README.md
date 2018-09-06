@@ -7,6 +7,7 @@ Per default all views of [IdentityServer3](https://github.com/IdentityServer/Ide
 Build the solution and include the resulting assembly. Place the directories `assets` and `resources` into the root directory of your application. Be sure to set `Copy to Output Directory` to `Copy if newer`. All files are loaded into an internal cache after startup, so restart after changing views or language files.
 
     var factory = new IdentityServerServiceFactory();
+    var embeddedViewServiceConfig = new DefaultViewServiceOptions();
     factory.ViewService = new Registration<IViewService>(
         resolver => new DefaultViewService(embeddedViewServiceConfig, new LocalizedViewLoader()));
 
